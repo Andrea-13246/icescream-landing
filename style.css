@@ -186,4 +186,54 @@ footer {
   padding: 2rem 1rem;
   font-size: 0.9rem;
   color: #888;
+}/* --- White Paper Page --- */
+.whitepaper-body {
+  background: linear-gradient(180deg, #061824 0%, #0d2b3f 100%);
+  color: #dff7ff;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 60px;
+}
+
+.whitepaper-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 20, 40, 0.6);
+  box-shadow: 0 0 20px #00eaff;
+}
+
+.back-btn {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #00eaff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.whitepaper-content {
+  max-width: 800px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.whitepaper-content h2 {
+  color: #9de6ff;
+  margin-top: 30px;
+}
+
+.whitepaper-content ul {
+  text-align: left;
+  margin: 15px 0 30px;
+}
+
+.whitepaper-content li {
+  margin-bottom: 8px;
+}
+
+.whitepaper-content p {
+  line-height: 1.6;
 }
